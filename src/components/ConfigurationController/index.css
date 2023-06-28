@@ -1,0 +1,55 @@
+.configContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #475569;
+}
+.responsiveContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 550px;
+}
+.leftSide {
+  margin-right: 200px;
+}
+.layoutHeading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+}
+.checkboxGroup {
+  display: flex;
+  flex-direction: column;
+}
+.labelText {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .configContainer {
+    align-items: center;
+  }
+  .responsiveContainer {
+    max-width: 1140px;
+  }
+  .layoutHeading {
+    font-size: 48px;
+  }
+  .leftSide {
+    margin-right: 880px;
+  }
+}

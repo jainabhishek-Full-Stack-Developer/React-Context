@@ -1,0 +1,19 @@
+.headerContainer {
+  text-align: left;
+  align-self: stretch;
+  background-color: #cbd5e1;
+  margin-top: 64px;
+}
+.headerContainer h1 {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (mai-width: 768px) {
+  .headerContainer h1 {
+    font-size: 41px;
+  }
+}
